@@ -1,0 +1,33 @@
+<md-dialog aria-label="user" ng-controller="emailBoxCtrl">
+    <form>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>EMAIL DETAILS</h2>
+                <span flex></span>
+                <md-button class="md-icon-button" ng-click="answer('close')">
+                    <img src="images/icons/tm-close.png" aria-label="Close dialog">
+                </md-button>
+            </div>
+        </md-toolbar>
+        <md-dialog-content>
+            <form action="userForm">
+                <div layout="row" layout-wrap layout-margin>
+                    <div flex>
+                        <h2>Title</h2>
+                        {{moreMail.title}}
+                        <h3>From</h3>
+                        {{moreMail.from.name}}
+                        <h2>Message</h2>
+                        {{moreMail.message}}
+
+                    </div>
+                </div>
+            </form>
+        </md-dialog-content>
+        <div class="md-actions" layout="row">
+            <md-button ng-click="answer('close')" class="md-warn">
+                close
+            </md-button>
+        </div>
+    </form>
+</md-dialog>

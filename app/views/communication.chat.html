@@ -1,0 +1,40 @@
+<md-dialog-content>
+    <form action="emailForm">
+        <div layout="column" layout-wrap layout-margin>
+            <div flex id="chat-box" class="chat-box">
+                <ul id="messages">
+                    <li>
+                        <img ng-src="/images/icons/user-icon.png" class="md-avatar" alt="{{ ::user.who}}" />
+                        something from me
+                    </li>
+                    <li>
+                        <img ng-src="/images/icons/me.jpg" class="md-avatar" alt="{{ ::user.who}}" />
+                        and a bit more thext from him to see how this is going
+                    </li>
+                    <li>
+                        <img ng-src="/images/icons/user-icon.png" class="md-avatar" alt="{{ ::user.who}}" />
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad, raesentium quam quisquam quos reiciendis suscipit vel.
+                    </li>
+                    <li>
+                        <img ng-src="/images/icons/me.jpg" class="md-avatar" alt="{{ ::user.who}}" />
+                        ok
+                    </li>
+                    <li>
+                        <img ng-src="/images/icons/user-icon.png" class="md-avatar" alt="{{ ::user.who}}" />
+                        atque, commodi cum doloremque eum explicabo illo iure labore maiores neque officiis optio p
+                    </li>
+                    <li>
+                        <img ng-src="/images/icons/me.jpg" class="md-avatar" alt="{{ ::user.who}}" />
+                        fine fine
+                    </li>
+                </ul>
+            </div>
+            <div flex>
+                <md-input-container>
+                    <label>Message</label>
+                    <input type="text" id="m" ng-model="message"/>
+                </md-input-container>
+            </div>
+        </div>
+    </form>
+</md-dialog-content>

@@ -1,0 +1,13 @@
+.angular-google-map-container {
+    height: 750px;
+    border: solid 1px darkgray;
+}
+
+.small-maps .angular-google-map-container {
+    height: 250px;
+    border: solid 1px darkgray;
+}
+
+.additional-info {
+    padding: 5px;
+}

@@ -1,0 +1,17 @@
+md-list-item.md-3-line, md-list-item.md-3-line>.md-no-style {
+    height: 100%;
+}
+
+md-list-item.md-2-line, md-list-item.md-2-line>.md-no-style, md-list-item.md-3-line, md-list-item.md-3-line>.md-no-style {
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-justify-content: left;
+    -ms-flex-pack: center;
+    justify-content: left;
+}
+
+.user-scroll {
+    height: 650px;
+    overflow-y: scroll;
+}

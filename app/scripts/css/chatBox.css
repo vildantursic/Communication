@@ -1,0 +1,25 @@
+.chat-box {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.chat-box ul {
+    list-style: none;
+}
+
+.chat-box ul li {
+    margin: 15px;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px darkgray;
+    display: block;
+    word-break: break-all;
+}
+
+.chat-box ul li img{
+    float: left;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
