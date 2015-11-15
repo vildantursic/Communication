@@ -1,0 +1,31 @@
+<md-dialog aria-label="user" ng-controller="emailsCtrl">
+    <form>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>DELETE EMAIL</h2>
+                <span flex></span>
+                <md-button class="md-icon-button" ng-click="answer('close')">
+                    <img src="images/icons/tm-close.png" aria-label="Close dialog">
+                </md-button>
+            </div>
+        </md-toolbar>
+        <md-dialog-content>
+            <form action="userForm">
+                <div layout="row" layout-wrap layout-margin>
+                    <div flex>
+                        <h2>Do you want to delete this mail</h2>
+                        #
+                    </div>
+                </div>
+            </form>
+        </md-dialog-content>
+        <div class="md-actions" layout="row">
+            <md-button ng-click="answer('no')" class="md-warn">
+                cancel
+            </md-button>
+            <md-button ng-click="answer('yes')" class="md-raised md-primary">
+                save
+            </md-button>
+        </div>
+    </form>
+</md-dialog>

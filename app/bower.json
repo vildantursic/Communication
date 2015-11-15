@@ -19,7 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.5",
+    "angular": "1.4.7",
     "angular-chart.js": "~0.8.4",
     "angular-material": "0.11.2",
     "angular-messages": "~1.4.5",
@@ -27,6 +27,7 @@
     "angular-ui-router": "~0.2.15",
     "bootstrap": "~3.3.5",
     "moment": "~2.10.6",
-    "angular-google-maps": "~2.2.1"
+    "angular-google-maps": "~2.2.1",
+    "material-calendar": "0.2"
   }
 }

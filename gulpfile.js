@@ -49,7 +49,8 @@ gulp.task('bower', function () {
 
 gulp.task('browser-sync', function () {
     sync({
-        port: 7000,
+        open:false,
+        port: 3000,
         ui: {
             port: 8080
         },
